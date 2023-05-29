@@ -22,14 +22,12 @@ function isExpired ({ expires_in: expiresIn = 0 } = {}) {
 function isAuthorised ({ access_token: accessToken } = {}) {
   /**
    *  `accessToken` is a required field in the authorisation response
-   *  so its absence means we are not authorised and should halt
    */
   return (
     Boolean(accessToken)
   )
 }
 
-// https://auth0.com/docs/secure/tokens/access-tokens/get-management-api-access-tokens-for-production
 async function getAuthorisationFromAuthorisationEndpoint () {
   const response = await fetch(AUTHORISATION_ENDPOINT, {
     method: 'POST',

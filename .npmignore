@@ -23,3 +23,6 @@
 
 # Env
 .env
+
+# Babel
+babel.config.cjs

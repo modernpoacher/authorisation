@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "debug": "^4.3.4",
-    "dotenv": "^16.1.4",
+    "dotenv": "^16.3.0",
     "nconf": "^0.12.0"
   },
   "devDependencies": {
@@ -22,7 +22,7 @@
     "@modernpoacher/hooks": "^1.0.418",
     "core-js": "^3.31.0",
     "cross-env": "^7.0.3",
-    "eslint": "^8.42.0",
+    "eslint": "^8.43.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",

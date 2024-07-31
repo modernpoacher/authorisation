@@ -20,10 +20,10 @@
     "nconf": "^0.12.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.9",
+    "@babel/core": "^7.25.2",
     "@babel/eslint-parser": "^7.25.1",
-    "@babel/preset-env": "^7.25.0",
-    "@modernpoacher/hooks": "^1.0.487",
+    "@babel/preset-env": "^7.25.2",
+    "@modernpoacher/hooks": "^1.0.488",
     "core-js": "^3.37.1",
     "cross-env": "^7.0.3",
     "eslint": "8.57.0",

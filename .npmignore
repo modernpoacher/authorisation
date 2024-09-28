@@ -21,5 +21,8 @@
 # Deps
 .depsrc
 
+# Hooks
+.husky/hooks
+
 # Env
 .env

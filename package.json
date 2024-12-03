@@ -1,6 +1,6 @@
 {
   "name": "@modernpoacher/authorisation",
-  "version": "1.0.161",
+  "version": "1.0.162",
   "main": "./src/index.mjs",
   "type": "module",
   "author": {

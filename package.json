@@ -22,7 +22,7 @@
   "devDependencies": {
     "@babel/core": "^7.27.1",
     "@babel/eslint-parser": "^7.27.1",
-    "@babel/preset-env": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
     "core-js": "^3.42.0",
     "cross-env": "^7.0.3",
     "eslint": "8.57.1",

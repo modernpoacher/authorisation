@@ -15,7 +15,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "debug": "^4.4.0",
+    "debug": "^4.4.1",
     "dotenv": "^16.5.0",
     "nconf": "^0.13.0"
   },

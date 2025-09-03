@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "debug": "^4.4.1",
-    "dotenv": "^17.2.1",
+    "dotenv": "^17.2.2",
     "nconf": "^0.13.0"
   },
   "devDependencies": {

@@ -20,9 +20,9 @@
     "nconf": "^0.13.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.5",
-    "@babel/eslint-parser": "^7.28.5",
-    "@babel/preset-env": "^7.28.5",
+    "@babel/core": "^7.28.6",
+    "@babel/eslint-parser": "^7.28.6",
+    "@babel/preset-env": "^7.28.6",
     "core-js": "^3.47.0",
     "cross-env": "^10.1.0",
     "eslint": "8.57.1",

@@ -10,9 +10,12 @@
   },
   "license": "ISC",
   "scripts": {
-    "lint": "eslint . --ext .mjs,.cjs",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "node husky.mjs"
+  },
+  "allowScripts": {
+    "core-js@3.51.0": true
   },
   "dependencies": {
     "debug": "^4.4.3",
@@ -21,15 +24,12 @@
   },
   "devDependencies": {
     "@babel/core": "7.29.7",
-    "@babel/eslint-parser": "7.29.7",
     "@babel/preset-env": "7.29.7",
+    "@sequencemedia/eslint-config-standard": "0.4.2",
     "core-js": "^3.51.0",
     "cross-env": "^10.1.0",
-    "eslint": "8.57.1",
-    "eslint-config-standard": "^17.1.0",
+    "eslint": "10.15.0",
+    "globals": "^17.14.0",
     "husky": "^9.1.7"
-  },
-  "allowScripts": {
-    "core-js@3.51.0": true
   }
 }
